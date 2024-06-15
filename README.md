@@ -12,6 +12,7 @@
 - Installed iconify-json to work offline: bxs, fluent, ic, mdi, noto
 - Use webview instead of Chrome engine
 - Installed Pinia but not used
+- Added bootstrap for PWA with [Vite PWA](https://vite-pwa-org.netlify.app/)
 
 Check `vite.config.js`.
 
