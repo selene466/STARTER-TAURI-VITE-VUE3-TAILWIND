@@ -1,6 +1,6 @@
 {
-  "name": "MyApp",
-  "short_name": "MyApp",
+  "name": "StarterApp",
+  "short_name": "StarterApp",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

@@ -32,7 +32,7 @@ export default defineConfig({
     }),
     Icons({ autoInstall: true, compiler: "vue3" }),
     VitePWA({
-      /* uncomment below for production */
+      /* comment devOptions below for production */
       devOptions: {
         enabled: true,
         type: "module",

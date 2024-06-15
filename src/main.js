@@ -4,6 +4,12 @@ import { routes } from "vue-router/auto-routes";
 import { createPinia } from "pinia";
 import App from "./App.vue";
 
+routes.push({
+  path: "/:catchAll(.*)",
+  redirect: "/404",
+  name: "404",
+});
+
 const router = createRouter({
   history: createWebHistory(),
   routes,
