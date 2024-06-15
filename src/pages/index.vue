@@ -1,15 +1,9 @@
 <script setup>
-import { ref, onMounted } from "vue";
-import { themeChange } from "theme-change";
+import { ref } from "vue";
 import { useDebounceFn } from "@vueuse/core";
 
 // ref
 const showToast = ref(false);
-
-// mounted
-onMounted(() => {
-    themeChange(false);
-});
 
 // function
 const click = () => {

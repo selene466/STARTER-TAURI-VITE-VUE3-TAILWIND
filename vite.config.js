@@ -38,9 +38,9 @@ export default defineConfig(({ mode }) => {
         ...(isDevelopment && {
           devOptions: {
             enabled: true,
-            type: "module",
           },
         }),
+        type: "module",
         includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
         manifest: {
           name: "Starter Vite + Vue",
