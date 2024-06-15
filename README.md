@@ -1,5 +1,7 @@
 # Vite Vue starter project
 
+[Preview site](https://starter-vite-vue3-tailwind.pages.dev)
+
 ## Whats added
 
 - Added Tailwind v3
